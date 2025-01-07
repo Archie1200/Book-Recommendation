@@ -28,7 +28,7 @@ def index():
 
 @app.route('/recommend')
 def recommend_ui():
-    return render_template('recommend.html')
+    return render_template('templates/recommend.html')
 
 @app.route('/recommend_books',methods=['post'])
 def recommend():
